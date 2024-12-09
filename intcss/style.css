@@ -1,0 +1,174 @@
+
+
+/* //banner */
+.blog .carousel-indicators {
+	margin-left: auto;
+	margin-right: auto;
+
+	top: auto;
+	bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+	background: #ffc107;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+}
+
+.blog .carousel-indicators .active {
+	background: #fff;
+	opacity: 0.5;
+}
+
+
+
+.team-agile-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.box20 {
+	position: relative;
+	overflow: hidden;
+	border: 8px solid rgba(255, 255, 255, 0.35);
+}
+
+.box20:after,
+.box20:before {
+	position: absolute;
+	content: ""
+}
+
+.box20:before {
+	width: 80%;
+	height: 220%;
+	background: #ffc107;
+	top: -50%;
+	left: -100%;
+	z-index: 1;
+	transform: rotate(25deg);
+	transform-origin: center top 0;
+	transition: all .5s ease 0s
+}
+
+.box20:hover:before {
+	left: 10%
+}
+
+.box20:after {
+	width: 55%;
+	height: 175%;
+	background-color: rgba(0, 0, 0, .8);
+	bottom: -1000%;
+	left: 53%;
+	transform: rotate(-33deg);
+	transform-origin: center bottom 0;
+	transition: all .8s ease 0s
+}
+
+.box20 .box-content,
+.box20 .icon {
+	width: 100%;
+	padding: 0 20px;
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	transition: all 1.1s ease 0s
+}
+
+.box20:hover:after {
+	bottom: -70%
+}
+
+.box20 img {
+	width: 100%;
+	height: auto
+}
+
+.box20 .box-content {
+	top: -100%;
+	color: #fff
+}
+
+.box20:hover .box-content {
+	top: 30px
+}
+
+.box20 .title {
+	font-size: 20px;
+	margin: 0;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.box20 .icon li a,
+.box20 .post {
+	display: inline-block;
+	font-size: 14px
+}
+
+.box20 .post {
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+
+.box20 .icon {
+	list-style: none;
+	margin: 0;
+	bottom: -100%
+}
+
+.box20:hover .icon {
+	bottom: 25px
+}
+
+.box20 .icon li {
+	display: inline-block
+}
+
+.box20 .icon li a {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: #444;
+	border-radius: 50%;
+	margin: 0 3px;
+	color: #fff;
+	text-align: center;
+	transition: all .5s ease 0s
+}
+
+.box20 .icon li a:hover {
+	background: #fff;
+	color: #ff402a
+}
+
+@media only screen and (max-width:990px) {
+	.box20 {
+		margin-bottom: 30px
+	}
+}
+
+@media only screen and (max-width:479px) {
+	.box20 .title {
+		font-size: 20px
+	}
+}
+
+.w3-slide-grid h5 a {
+	color: #fff;
+	margin-bottom: 1em;
+	font-size: 1em;
+	display: block;
+	letter-spacing: 1px;
+}
+
+

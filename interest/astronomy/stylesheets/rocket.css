@@ -1,0 +1,16 @@
+.marquee {
+  background-image: url(./kk.png);
+  width: 400px;
+  height: 50px;
+  -webkit-animation: marquee 05s infinite ;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: -1190px;
+  }
+}

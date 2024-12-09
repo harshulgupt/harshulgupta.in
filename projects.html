@@ -1,0 +1,636 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Harshul Gupta | Projects</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'><link rel="stylesheet" href="./aosstyle.css">
+  	<link rel="icon" type="image/png" href="uni.png" />
+
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- webfonts -->
+    <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <!-- webfonts -->
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!---- start-smoth-scrolling---->
+</head>
+
+<body>
+
+
+    <!-- container -->
+    <!-- header -->
+    <div id="home" class="header">
+        <div class="container">
+            <!-- top-hedader -->
+            <div class="top-header">
+                <!-- /logo -->
+                <!--top-nav---->
+                <div class="top-nav">
+                    <div class="navigation">
+                        <div class="logo">
+                            <h1><a href="index.html"><span>H</span>ARSHUL</a></h1>
+                        </div>
+                        <div class="navigation-right">
+                            <span class="menu"><img src="images/menu.png" alt=" " /></span>
+                            <nav class="link-effect-3" id="link-effect-3">
+                                <ul class="nav1 nav nav-wil">
+                                    <li><a data-hover="Home" href="index.html">Home</a></li>
+                                    <li><a data-hover="About" href="about.html">About</a></li>
+                                    <li><a data-hover="Services" href="services.html">Services</a></li>
+                                    <li><a data-hover="Experience" href="experience.html">Experience</a></li>
+                                    <li class="active"><a data-hover="Portfolio" href="portfolio.html">Portfolio</a></li
+                                        class="active">
+                                    <li><a data-hover="Interests" href="interests.html">Interests</a></li>
+                                    <li><a data-hover="Blog" href="blogs.html">Blog</a></li>
+                                    <li><a data-hover="Contact" href="contact.html">Contact</a></li>
+
+                                </ul>
+                            </nav>
+                            <!-- script-for-menu -->
+                            <script>
+                                $("span.menu").click(function () {
+                                    $("ul.nav1").slideToggle(300, function () {
+                                        // Animation complete.
+                                    });
+                                });
+                            </script>
+                            <!-- /script-for-menu -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+            
+
+
+
+
+        <!-- /top-hedader -->
+
+
+        <br><br>
+        <!-- portfolio -->
+        <div class="portfolio" id="port">
+            <div class="service-head text-center"  data-aos="zoom-in">
+                <!--<h4>MY WORKS</h4>-->
+                <h3>MY <span>PORTFOLIO</span></h3>
+                <span class="border"></span>
+            </div>
+            <div class="portfolio-grids">
+                <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#horizontalTab').easyResponsiveTabs({
+                            type: 'default', //Types: default, vertical, accordion           
+                            width: 'auto', //auto or any width like 600px
+                            fit: true   // 100% fit in a container
+                        });
+                    });
+
+                </script>
+                <div class="sap_tabs">
+                    <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+                        <ul class="resp-tabs-list" data-aos="slide-up">
+                            
+                            <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Hospital Website</span></li>
+                            <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Artist Booking Website</span></li>
+                            <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Movie Recommendation Engine</span>
+                            </li>
+                        </ul>
+                        <div class="resp-tabs-container" data-aos="zoom-in">
+                            
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+                                <div class="col-md-3 team-gd ">
+                                    <div class="thumb">
+                                        <a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go"
+                                            data-toggle="modal"><img src="images/hos1.png" alt="">
+
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 team-gd  ">
+                                    <div class="thumb">
+                                        <a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go"
+                                            data-toggle="modal"><img src="images/hos2.png" alt="">
+
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/hos3.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/hos4.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m1.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m2.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m3.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m4.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m5.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal10" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m6.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal11" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m7.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal12" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/m8.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal13" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/rec1.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal14" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/rec2.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal15" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/rec3.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                <div class="col-md-3 team-gd ">
+
+                                    <a href="#portfolioModal16" class="portfolio-link b-link-diagonal b-animate-go"
+                                        data-toggle="modal"><img src="images/rec4.png" alt="">
+
+                                    </a>
+
+                                </div>
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //portfolio -->
+        <!-- /container -->
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>S.G. Hospital</h3>
+                                <img src="images/hos1.png" class="img-responsive img-centered" alt="">
+                                <p>Appointment and Booking portal which willl has details of hospital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>S.G. Hospital</h3>
+                                <img src="images/hos2.png" class="img-responsive img-centered" alt="">
+                                <p>Appointment and Booking portal which willl has details of hospital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>S.G. Hospital</h3>
+                                <img src="images/hos3.png" class="img-responsive img-centered" alt="">
+                                <p>Appointment and Booking portal which willl has details of hospital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>S.G. Hospital</h3>
+                                <img src="images/hos4.png" class="img-responsive img-centered" alt="">
+                                <p>Appointment and Booking portal which willl has details of hospital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>Manuraj Rajput Artist</h3>
+                                <img src="images/m1.png" class="img-responsive img-centered" alt="">
+                                <p>Website for inviting Mr. Manuraj to perform in concert (manurajflute.com)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>Manuraj Rajput Artist</h3>
+                                <img src="images/m2.png" class="img-responsive img-centered" alt="">
+                                <p>Website for inviting Mr. Manuraj to perform in concert (manurajflute.com)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>Manuraj Rajput Artist</h3>
+                                <img src="images/m3.png" class="img-responsive img-centered" alt="">
+                                <p>Website for inviting Mr. Manuraj to perform in concert (manurajflute.com)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>Manuraj Rajput Artist</h3>
+                                <img src="images/m4.png" class="img-responsive img-centered" alt="">
+                                <p>Website for inviting Mr. Manuraj to perform in concert (manurajflute.com)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <img src="images/m5.png" class="img-responsive img-centered" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal10" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>Manuraj Rajput Artist</h3>
+                                <img src="images/m6.png" class="img-responsive img-centered" alt="">
+                                <p>Website for inviting Mr. Manuraj to perform in concert (manurajflute.com)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade slideanim" id="portfolioModal11" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-content port-modal">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <div class="modal-body">
+                            <h3>Manuraj Rajput Artist</h3>
+                            <img src="images/m7.png" class="img-responsive img-centered" alt="">
+                            <p>Website for inviting Mr. Manuraj to perform in concert (manurajflute.com).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade slideanim" id="portfolioModal12" tabindex="-1" role="dialog"
+    aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <h3>Manuraj Rajput Artist</h3>
+                        <img src="images/m8.png" class="img-responsive img-centered" alt="">
+                        <p>Website for inviting Mr. Manuraj to perform in concert (manurajflute.com).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal13" tabindex="-1" role="dialog"
+aria-hidden="true">
+<div class="modal-content port-modal">
+    <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+            <div class="rl"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="modal-body">
+                    <h3>Cinebot Website</h3>
+                    <img src="images/rec1.png" class="img-responsive img-centered" alt="">
+                    <p>Website to recommend movie to users as per thier interest using Artificial Neural Networks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal14" tabindex="-1" role="dialog"
+aria-hidden="true">
+<div class="modal-content port-modal">
+    <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+            <div class="rl"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="modal-body">
+                    <h3>Cinebot Website</h3>
+                    <img src="images/rec2.png" class="img-responsive img-centered" alt="">
+                    <p>Website to recommend movie to users as per thier interest using Artificial Neural Networks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal15" tabindex="-1" role="dialog"
+aria-hidden="true">
+<div class="modal-content port-modal">
+    <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+            <div class="rl"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="modal-body">
+                    <h3>Cinebot Website</h3>
+                    <img src="images/rec3.png" class="img-responsive img-centered" alt="">
+                    <p>Website to recommend movie to users as per thier interest using Artificial Neural Networks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+  <div class="portfolio-modal modal fade slideanim" id="portfolioModal16" tabindex="-1" role="dialog"
+            aria-hidden="true">
+            <div class="modal-content port-modal">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <h3>Cinebot Website</h3>
+                                <img src="images/rec4.png" class="img-responsive img-centered" alt="">
+                                <p>Website to recommend movie to users as per thier interest using Artificial Neural Networks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        <!--start-smooth-scrolling-->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                var defaults = {
+                        containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear' 
+                    };
+                */
+
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <!--end-smooth-scrolling-->
+        <!-- //for bootstrap working -->
+        <script src="js/bootstrap.js"></script>
+        <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script><script  src="./aosscript.js"></script>
+    </div>
+    
+</div>
+</div>
+<div class="copy_right text-center">
+			<p >Designed & Developed by Harshul Gupta.</p>
+    
+</div>
+
+</body>
+
+</html>
