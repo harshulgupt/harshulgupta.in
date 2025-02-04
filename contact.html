@@ -24,7 +24,7 @@
     <!---- start-smoth-scrolling---->
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script> 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -98,52 +98,33 @@
                             <span class="border two"></span>
                         </div>
                         <div class="mail_us" data-aos="zoom-in">
-                            <div class="col-md-6 mail_left" >
-                                <div class="contact-grid1-left">
+                            <div class="col-md-6 mail_left">
+                                <div class="contact-grid1-left" >
                                     <div class="contact-grid1-left1">
-                                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                                        <h4>Contact By Email</h4>
-                                        <ul>
-                                            <li>Mail1: <a href="mailto:contact@harshulgupta.in">contact@harshulgupta.in</a>
-                                            </li>
-                                                                                    </ul>
+                                        <h3>Have a question?</h3>
+                                        <h4>I’ll get back to you shortly!</h4>
+                                      
                                     </div>
-                                </div>
-                                <div class="contact-grid1-left">
+                          
                                     <div class="contact-grid1-left1">
-                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                                        <h4>Contact By Phone</h4>
-                                        <ul>
-                                            <li>Phone: +91-</li>
+                                     <img src="images/pigeon.gif" alt="Description of the GIF">
 
-                                        </ul>
                                     </div>
                                 </div>
-                                <div class="contact-grid1-left">
-                                    <div class="contact-grid1-left1">
-                                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                                        <h4>Looking For Address</h4>
-                                        <ul>
-                                            <li>Bangalore</li>
-                                            <br>
-                                            <br>
-                                            <!--li>Jaipur, Rajasthan</li-->
-                                        </ul>
-                                    </div>
-                                </div>
+                               
                                 <div class="clearfix"> </div>
                             </div>
-                            <div class="col-md-6 mail_right" >
-                                <form action="mail_handler.php" method="post" name="form">
-                                    <input type="text" name="name" required placeholder="Name">
-                                    <input type="email" name="email" placeholder="Email">
-                                    <input type="text" name="phone" placeholder="Contact No">
-                                    <textarea name="msg" placeholder="Message..." required></textarea>
-                                    <div class="g-recaptcha" style="padding-bottom: 8px;" required data-sitekey="6LerxtEZAAAAADVn4l1B46V2exko3bp3fNzwVK-s"></div>
-                                    <input type="submit" name="submit" value="Send">
-
-                                </form>
+                            <div class="col-md-6 mail_right">
+                                    <form action="errors/custom_50x.html" method="post" name="form">
+                                        <input type="text" name="name" required placeholder="Name">
+                                        <input type="email" name="email" placeholder="Email">
+                                        <input type="text" name="phone" placeholder="Contact No">
+                                        <textarea name="msg" placeholder="Message..." required></textarea>
+                                        <input type="submit" name="submit" value="Send">
+                        
+                                    </form>
                             </div>
+
                             <div class="clearfix"></div>
                         </div>
 
@@ -180,7 +161,7 @@
                         <!--end-smooth-scrolling-->
                         <!-- //for bootstrap working -->
                         <script src="js/bootstrap.js"></script>
-
+                        <script src="https://www.google.com/recaptcha/api.js"></script>
                         <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
                         <script src="./aosscript.js"></script>
                     </div>
@@ -193,26 +174,31 @@
         <p>Designed & Developed by Harshul Gupta.</p>
 
     </div>
-<script>window.onload = function() {
-    var $recaptcha = document.querySelector('#g-recaptcha-response');
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
+    <script>window.onload = function () {
+            var $recaptcha = document.querySelector('#g-recaptcha-response');
 
-    if($recaptcha) {
-        $recaptcha.setAttribute("required", "required");
-    }
-};
-</script>
-<style>
-#g-recaptcha-response {
-    display: block !important;
-    position: absolute;
-    margin: -78px 0 0 0 !important;
-    width: 302px !important;
-    height: 76px !important;
-    z-index: -999999;
-    opacity: 0;
-}
-</style>
-  
+            if ($recaptcha) {
+                $recaptcha.setAttribute("required", "required");
+            }
+        };
+    </script>
+    <style>
+        #g-recaptcha-response {
+            display: block !important;
+            position: absolute;
+            margin: -78px 0 0 0 !important;
+            width: 302px !important;
+            height: 76px !important;
+            z-index: -999999;
+            opacity: 0;
+        }
+    </style>
+
 </body>
 
 </html>

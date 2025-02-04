@@ -127,6 +127,7 @@
 
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
+
 	content: ".";
 	display: block;
 	clear: both;
@@ -140,11 +141,19 @@
 	position: relative;
 	-ms-touch-action: pan-y;
 }
-.owl-carousel .owl-wrapper{
-	display: none;
-	position: relative;
-	-webkit-transform: translate3d(0px, 0px, 0px);
+.owl-carousel .owl-wrapper {
+    margin-left: 14%; /* Use a percentage for more flexibility */
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
 }
+
+@media (max-width: 1200px) {
+    .owl-carousel .owl-wrapper {
+        margin-left: 0; /* Reset margin for smaller screens */
+    }
+}
+
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
 	position: relative;
